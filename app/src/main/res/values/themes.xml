@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.CazarPatos" parent="Base.Theme.CazarPatos" />
-</resources>
+    <style name="Theme.CazarPatos.Personalizado">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    </resources>
