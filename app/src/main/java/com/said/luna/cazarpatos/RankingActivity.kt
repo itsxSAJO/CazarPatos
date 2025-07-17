@@ -18,6 +18,7 @@ class RankingActivity : AppCompatActivity() {
         GrabarRankingSQLite()
         LeerRankingsSQLite()
 
+        /*
         var jugadores = arrayListOf<Player>()
         jugadores.add(Player("Said.Luna",10))
         jugadores.add(Player("Jugador2",6))
@@ -29,7 +30,7 @@ class RankingActivity : AppCompatActivity() {
         recyclerViewRanking.layoutManager = LinearLayoutManager(this);
         recyclerViewRanking.adapter = RankingAdapter(jugadores);
         recyclerViewRanking.setHasFixedSize(true);
-
+    */
     }
 
     fun OperacionesSqLite(){
